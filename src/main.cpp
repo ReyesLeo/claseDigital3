@@ -19,6 +19,8 @@ void encendido()
 }
 //ledbuiltin pin 2
 void setup() {
+  Serial.begin(115200);
+  Serial.println("testeo");
   // put your setup code here, to run once:
   //int result = myFunction(2, 3);
   //micros();lo mismo que milli pero en microseg,32bits->2^32->49.7dias aprxo
